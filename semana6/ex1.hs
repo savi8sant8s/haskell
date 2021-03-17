@@ -1,0 +1,1 @@
+putStr' value = sequence_ ( [putChar x | x <- value])
